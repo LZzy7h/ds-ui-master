@@ -1,0 +1,53 @@
+//=================================按钮===============================
+$primary-color: #3312AF;
+$primary-bg-color: #FCFCFE;
+$primary-active-font-color: #fff;
+$primary-active-color: lighten($primary-color, 10%);
+$primary-hover-font-color: #fff;
+$primary-hover-color: lighten($primary-color, 20%);
+
+$info-color: #3312AF;
+$info-bk-color: #fff;
+$info-active-bk-color: #fff;
+$info-active-color: lighten($info-color, 10%);
+$info-hover-bk-color: #fff;
+$info-hover-color: lighten($info-color, 10%);
+
+$primary-plain-color: #8A9CE3;
+$primary-plain-bk-color: #fff;
+$primary-plain-active-bk-color: lighten($primary-plain-color, 59%);
+$primary-plain-active-color: #8A9CE3;
+$primary-plain-hover-bk-color: lighten($primary-plain-color, 59%);
+$primary-plain-hover-color: #8A9CE3;
+
+$danger-plain-color: #FF1A1A;
+$danger-plain-bk-color: #fff;
+$danger-plain-active-bk-color: lighten($danger-plain-color, 59%);
+$danger-plain-active-color: #FF1A1A;
+$danger-plain-hover-bk-color: lighten($danger-plain-color, 59%);
+$danger-plain-hover-color: #FF1A1A;
+
+$default-active-font-color:lighten($primary-color, 20%);
+$default-active-border-color:lighten($primary-color, 20%);
+$default-hover-font-color:lighten($primary-color, 30%);
+$default-hover-border-color:lighten($primary-color, 30%);
+$default-hover-bk-color:#fff;
+
+$default-text-font-color: #333333;
+$default-text-active-font-color: #3312AF;;
+$default-text-hover-font-color: lighten($default-text-active-font-color, 20%);
+
+//================================输入框===============================
+
+$input-focus-color: #3312AF;;
+
+//==============================
+
+$text-color: #3312AF;;
+//================================表格===============================
+
+$table-hover-bgcolor:#F3F5FC;
+$table-hover-text:#333333;
+$bg: url("../assets/images/bg01@2x.png");
+
+@import "style";

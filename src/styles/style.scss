@@ -1,0 +1,184 @@
+//==================================按钮==================================
+.el-switch.is-checked .el-switch__core {
+  background-color: $default-active-font-color !important;
+  border-color: $default-active-border-color !important;
+}
+.el-button:active {
+  color: $default-active-font-color;
+  border-color: $default-active-border-color;
+}
+
+.el-button:hover, .el-button:focus {
+  color: $default-hover-font-color;
+  border-color: $default-hover-border-color;
+  background: $default-hover-bk-color !important;
+}
+
+.el-button--primary{
+  background: $primary-color  !important;
+  border-color: $info-color;
+}
+
+.el-button--primary:active {
+  color: $primary-active-font-color;
+  background: $primary-active-color  !important;
+  border-color: $primary-active-color;
+}
+
+.el-button--primary:hover, .el-button--primary:focus {
+  color: $primary-hover-font-color;
+  background: $primary-hover-color  !important;
+  border-color: $primary-hover-color;
+}
+
+.el-button--primary.is-disabled, .el-button--primary.is-disabled:hover, .el-button--primary.is-disabled:active{
+  color: #ccc !important;
+  background: #fff !important;
+  border-color: #ccc !important;
+}
+.el-button--danger.is-disabled, .el-button--danger.is-disabled:hover, .el-button--danger.is-disabled:active{
+  color: #ccc !important;
+  background: #fff !important;
+  border-color: #ccc !important;
+}
+
+.el-button--info{
+  color: $info-color;
+  background: $info-bk-color  !important;
+  border-color: $info-color;
+}
+
+.el-button--primary:active {
+  background: $info-active-bk-color  !important;
+  border-color: $info-active-color;
+  color: $info-active-color;
+}
+
+.el-button--primary:hover, .el-button--primary:focus {
+  background: $info-hover-bk-color  !important;
+  border-color: $info-hover-color;
+  color: $info-hover-color;
+}
+
+.el-button--primary.is-plain {
+  color: $primary-plain-color;
+  background: $primary-plain-bk-color  !important;
+  border-color: $primary-plain-color;
+}
+
+.el-button--primary.is-plain:active {
+  background: $primary-plain-active-bk-color  !important;
+  border-color: $primary-plain-active-color;
+  color: $primary-plain-active-color;
+}
+
+.el-button--primary.is-plain:hover, .el-button--primary.is-plain:focus {
+  background: $primary-plain-hover-bk-color  !important;
+  border-color: $primary-plain-hover-color;
+  color: $primary-plain-hover-color;
+}
+
+.el-button--danger.is-plain {
+  color: $danger-plain-color;
+  background: $danger-plain-bk-color  !important;
+  border-color: $danger-plain-color;
+}
+
+.el-button--danger.is-plain:hover, .el-button--danger.is-plain:focus {
+  background: $danger-plain-bk-color  !important;
+  border-color: $danger-plain-color;
+  color: $danger-plain-color;
+}
+
+.el-button--success.is-plain:active {
+  background: $danger-plain-active-bk-color  !important;
+  border-color: $danger-plain-active-color;
+  color: $danger-plain-active-color;
+}
+
+.el-button--success.is-plain:hover, .el-button--success.is-plain:focus {
+  background: $danger-plain-hover-bk-color  !important;
+  border-color: $danger-plain-hover-color;
+  color: $danger-plain-hover-color;
+}
+.el-button--text {
+  color: $default-text-font-color;
+}
+.el-button--text:active {
+  color: $default-text-active-font-color;
+  border-color: transparent;
+  background: transparent  !important;
+}
+
+.el-button--text:hover, .el-button--text:focus {
+  color: $default-text-hover-font-color;
+  border-color: transparent;
+  background: transparent  !important;
+}
+
+//=======================================输入框==================================
+
+.el-input__inner:focus {
+  border-color: $input-focus-color
+}
+
+//=======================================菜单==================================
+
+html{
+  background: $primary-bg-color  !important;
+}
+.sidebar-logo-container{
+  background:$primary-color;
+}
+.el-menu{
+ background:  $primary-bg-color  !important;
+}
+.sidebar-container .el-submenu .el-menu-item.is-active {
+  background: $primary-color !important;
+  color: $primary-active-font-color !important;
+}
+//=======================================个人中心页=================================
+
+.basic-info-edit{
+  color:$text-color;
+}
+.el-tabs__active-bar{
+  background:$primary-color  !important;
+}
+.el-tabs--left .el-tabs__item.is-left{
+  color:$text-color;
+}
+.el-tabs__nav .is-left{
+border-right: 3px solid $text-color;
+}
+.tab-item.active {
+  border-bottom-color: #fff;
+  color: $primary-plain-color;
+}
+.el-pagination.is-background .el-pager li:not(.disabled).active{
+  background: $primary-color  !important;
+}
+.avatar-edit{
+  background: $primary-color;
+}
+.new-profile-wrap .new-profile .new-profile-center .profile-top{
+  background-image: $bg;
+  background-position:  center;
+  background-repeat:no-repeat;
+}
+//=======================================表格======================================
+// .el-table tr.expanded{
+//   // background: rgba(220,220,229,0.28)  !important;
+// }
+.el-table--enable-row-hover .el-table__body tr:hover > td{
+  background:  $table-hover-bgcolor !important;
+  color:$table-hover-text;
+}
+//=======================================统计报告页=================================
+
+
+//=====================================字体颜色=====================================
+
+.text_color{
+  color: $text-color;
+}
